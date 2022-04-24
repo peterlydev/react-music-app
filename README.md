@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -14,57 +10,31 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Exercises (To-dos)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Music App: Create a React Website that showcases your favourite artists songs/albums.
 
-### `npm run build`
+Using JSX make your website a portfolio of their work. The site should be broken down into components that are rendered on the same page. It should contain at the very minimum two components. An example would be:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Completed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Their name, music type and an introduction paragraph.
+* A list of their songs/albums including name,release date and cover art.
+* Build & deploy your React app
+* Have a go at styling your app
+* Add an element eg. a button, or an icon next to each song
+* Pass data from a parent component to a child component (Props)
+* Pass a callback function from a parent component to a child component and invoke it on an event in the child component
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### To-do
 
-### `npm run eject`
+* When a user clicks the Like button element, change something about it to indicate the user has 'liked' the song
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* When a user clicks again, the element should revert back to the 'unliked' view
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Use state to track if a track has been liked or not
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*fetch some data from an API of your choice (lyrics.ovh or Bandsintown are two options with no required authentication or key but feel free to use any!)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*set an interval for something to happen (it doesn't have to involve an API call - how about a background colour that changes every 30 seconds?) and make sure to clear it in a timely manner!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
