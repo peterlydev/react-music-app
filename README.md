@@ -26,6 +26,8 @@ Using JSX make your website a portfolio of their work. The site should be broken
 * Pass data from a parent component to a child component (Props)
 * Pass a callback function from a parent component to a child component and invoke it on an event in the child component
 * fetch some data from an API of your choice (lyrics.ovh or Bandsintown are two options with no required authentication or key but feel free to use any!)
+* Use state to track if a track has been liked or not
+* set an interval for something to happen (it doesn't have to involve an API call - how about a background colour that changes every 30 seconds?) and make sure to clear it in a timely manner!
 
 ### To-do
 
@@ -33,7 +35,4 @@ Using JSX make your website a portfolio of their work. The site should be broken
 
 * When a user clicks again, the element should revert back to the 'unliked' view
 
-* Use state to track if a track has been liked or not
-
-* set an interval for something to happen (it doesn't have to involve an API call - how about a background colour that changes every 30 seconds?) and make sure to clear it in a timely manner!
 

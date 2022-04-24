@@ -74,4 +74,14 @@
   margin: 20px;
 }
 
+button{
+  background-color: white;
+  padding: 10px;
+}
+
+button:active{
+  background-color: #e21956b9;
+  font-size: larger;
+}
+
 

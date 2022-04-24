@@ -11,9 +11,18 @@ const Songs = () => {
         {name: "We Are Not Your Kind", year: 2019, img: "https://upload.wikimedia.org/wikipedia/en/1/18/Slipknot_-_We_Are_Not_Your_Kind.png"}
     ]);
 
-    const changeAlbumNameOnLike = (e) => {
+   
+    const changeColor = (e) => {
+        if(e.target.style.backgroundColor === 'white'){
+            e.target.style.backgroundColor = '#f1356d'
 
-    };
+        } else {
+            e.target.style.backgroundColor = 'white'
+
+        }
+    }
+
+
 
     useEffect(() => {
         async function getLyrics(){
@@ -33,7 +42,10 @@ const Songs = () => {
               <p>{each.year}</p>
               <img src={each.img} alt={each.alt} style={{ maxWidth: "500px" }} />
             </li>
-            <button onClick={changeAlbumNameOnLike}>Like</button>
+            <button name="color" onClick={ changeColor }>Like</button>
+            <div className="liked">
+
+            </div>
             <hr></hr>
           </ul>
 
@@ -42,7 +54,9 @@ const Songs = () => {
       return <>{renderRows()}
 
       <div className="lyrics">
-      <p>{ lyrics }</p>
+
+      { lyrics }
+
       </div>
       
       </>;
