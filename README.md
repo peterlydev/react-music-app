@@ -34,7 +34,7 @@ Using JSX make your website a portfolio of their work. The site should be broken
 
 * Use state to track if a track has been liked or not
 
-*fetch some data from an API of your choice (lyrics.ovh or Bandsintown are two options with no required authentication or key but feel free to use any!)
+* fetch some data from an API of your choice (lyrics.ovh or Bandsintown are two options with no required authentication or key but feel free to use any!)
 
-*set an interval for something to happen (it doesn't have to involve an API call - how about a background colour that changes every 30 seconds?) and make sure to clear it in a timely manner!
+* set an interval for something to happen (it doesn't have to involve an API call - how about a background colour that changes every 30 seconds?) and make sure to clear it in a timely manner!
 
