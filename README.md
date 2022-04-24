@@ -28,11 +28,18 @@ Using JSX make your website a portfolio of their work. The site should be broken
 * fetch some data from an API of your choice (lyrics.ovh or Bandsintown are two options with no required authentication or key but feel free to use any!)
 * Use state to track if a track has been liked or not
 * set an interval for something to happen (it doesn't have to involve an API call - how about a background colour that changes every 30 seconds?) and make sure to clear it in a timely manner!
-
-### To-do
-
 * When a user clicks the Like button element, change something about it to indicate the user has 'liked' the song
-
 * When a user clicks again, the element should revert back to the 'unliked' view
+
+### Wins
+
+* React is so fun!!!
+* Adding components and styling is also fun!
+
+### Challenges
+
+* Getting functions correctly despite learning React for the first time.
+
+
 
 
