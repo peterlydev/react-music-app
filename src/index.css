@@ -34,7 +34,8 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: rgba(42, 42, 221, 0.763);
+  text-decoration: underline;
 }
 .content {
   max-width: 600px;
@@ -50,7 +51,7 @@
 .post-preview {
   padding: 10px 16px;
   margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid #d93f4f;
 }
 
 .post-preview h3, img{
@@ -80,7 +81,7 @@ button{
 }
 
 button:active{
-  background-color: #e21956b9;
+  background-color: #a40a38b9;
   font-size: larger;
 }
 

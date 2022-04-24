@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div className="homepage">
-    <p id="caption">A place where you can share your favourite songs to the world!</p>
+    <p id="caption">A place where you can share your favourite music artists to the world!</p>
     <MusicPost posts={posts} title="Peter's Music!" />
     </div>
   )
