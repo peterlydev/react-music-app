@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 const Songs = () => {
+    const [lyrics, setLyrics] = useState(0);
     const [albums] = useState([
         {name: "Slipknot", year: 1999, img: "https://upload.wikimedia.org/wikipedia/en/4/44/Slipknot_-_Slipknot2.jpg"},
         {name: "Iowa", year: 2001, img: "https://upload.wikimedia.org/wikipedia/en/1/1d/Slipknot_Iowa.jpg"},
@@ -14,6 +15,15 @@ const Songs = () => {
 
     };
 
+    useEffect(() => {
+        async function getLyrics(){
+            const resp = await fetch('https://private-amnesiac-0d5df9-lyricsovh.apiary-proxy.com/v1/Slipknot/Duality')
+            const data = await resp.json()
+            setLyrics(data.lyrics)
+        }
+        getLyrics()
+    }, [])
+
     const renderRows = () => {
         return albums.map((each, i) => (
           <ul className="list">
@@ -26,9 +36,16 @@ const Songs = () => {
             <button onClick={changeAlbumNameOnLike}>Like</button>
             <hr></hr>
           </ul>
+
         ));
       };
-      return <>{renderRows()}</>;
+      return <>{renderRows()}
+
+      <div className="lyrics">
+      <p>{ lyrics }</p>
+      </div>
+      
+      </>;
 
 //   return (
 //     <div className="songs">
