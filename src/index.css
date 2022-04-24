@@ -1,13 +1,77 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Lato&family=Roboto&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Aldrich";
+  color: rgb(66, 60, 60);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  text-align: center;
 }
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.navbar {
+  border-bottom: 1px solid grey;
+}
+.navbar h1 {
+  color: goldenrod;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+#caption{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.post-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.post-preview h3, img{
+  margin: 20px;
+}
+
+.post-preview p{
+  margin: 10px auto;
+  padding: 15px 0;
+  text-align: left;
+  max-width: 600px;
+}
+
+.post-preview img{
+  max-width: 550px;
+  margin: auto;
+}
+
+.list li, .list hr{
+  list-style-type: none;
+  margin: 20px;
+}
+
+
