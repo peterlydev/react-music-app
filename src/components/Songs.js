@@ -18,7 +18,6 @@ const Songs = () => {
 
         } else {
             e.target.style.backgroundColor = 'white'
-
         }
     }
 

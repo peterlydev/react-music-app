@@ -1,7 +1,7 @@
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Songs from './components/Songs';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {
@@ -10,14 +10,10 @@ function App() {
     <div className="App">
     <Navbar />
     <div className="content">
-    <Switch>
-    <Route exact path="/">
-    <Home />
-    </Route>
-    <Route path="/tracks">
-    <Songs />
-    </Route>
-    </Switch>
+    <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/tracks" element={<Songs />} />
+    </Routes>
     </div>
     </div>
     </Router>
